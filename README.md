@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ecommerce Cart
+
+A simple e-commerce cart built with **Next.js** and **React**. This project features product management, responsive UI, and real-time notifications.
+
+## Features
+
+- **Add/Remove Products** to the shopping cart.
+- **Custom Dataset** using MongoDB for product management.
+- **React Toastify** for notifications.
+- **React Icons** for modern UI components.
+
+## Technologies
+
+- **Next.js** (React framework)
+- **React.js**
+- **MongoDB & Mongoose**
+- **Axios**
+- **React Toastify**
+- **React Icons**
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+
+### Installation
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/yourusername/ecommerce-cart.git
+cd ecommerce-cart
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Set up MongoDB connection in `.env`:
+
+```env
+MONGODB_URI=mongodb://localhost:27017/ecommerce-cart
+```
+
+### Running the App
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Build & Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To build and start for production:
 
-## Learn More
+```bash
+npm run build
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![image](https://github.com/user-attachments/assets/215f5b11-cd80-4d63-8ba2-1c08fb8a070d)
+![image](https://github.com/user-attachments/assets/3d3d3f83-b4cb-4a77-8af7-0abfdd4da673)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Feel free to fork and submit pull requests!
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+MIT License.
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+You can copy and paste this into your `README.md` file! Let me know if you need any further adjustments.
